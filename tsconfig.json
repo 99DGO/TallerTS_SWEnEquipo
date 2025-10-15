@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Language & Environment */
+    "target": "es6",                          
+    "module": "system",                       
+    "strict": true,                           
+
+    /* Paths */
+    "rootDir": "./",                          
+    "outFile": "./bundle.js",                 
+
+    /* Module Resolution */
+    "moduleResolution": "node",
+    "esModuleInterop": true,                  
+
+    /* Other */
+    "skipLibCheck": true
+  },
+  "include": ["*.ts"]
+}
