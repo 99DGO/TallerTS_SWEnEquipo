@@ -18,6 +18,9 @@ export class Serie {
     getName() {
         return this.name;
     }
+    getDescription() {
+        return this.description;
+    }
     getLink() {
         return this.link;
     }

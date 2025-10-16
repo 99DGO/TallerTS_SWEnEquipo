@@ -16,6 +16,10 @@ export class Serie {
         return this.name;
     }
 
+    public getDescription(): string {
+        return this.description;
+    }
+
     public getLink(): string {
         return this.link;
     }
