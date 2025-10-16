@@ -16,6 +16,10 @@ export class Serie {
         return this.name;
     }
 
+    public getLink(): string {
+        return this.link;
+    }
+
     public getChannel(): string {
         return this.channel;
     }

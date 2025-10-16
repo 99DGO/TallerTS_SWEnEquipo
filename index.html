@@ -13,13 +13,13 @@
 
 <body>
 
-    <div class="container-fluid">
-        <div class="row header">
-            <div class="col-xs">
-                <img src="tvLogo.png" class="rounded float-start" alt="Logo">
+    <div class="container-fluid h-25">
+        <div class="row align-items-center header">
+            <div class="col-auto"> <!-- -auto hace que ocupe espacio mínimo-->
+                <img src="tvLogo.png" alt="Logo" class="img-fluid my-2" style="max-height: 40px;">
             </div>
             <div class="col">
-                <h1 class="text-start">TV series</h1>
+                <h2 class="text-start mb-0">TV series</h2>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <table class="table table-bordered">
+                <table class="table table-bordered mt-4">
                     <thead>
                         <tr>
                             <th>#</th>
@@ -36,8 +36,10 @@
                             <th>Seasons</th>
                         </tr>
                     </thead>
-                    <tbody id="series-table-body"></tbody>
+                    <tbody id="series-table-body" class="table-secondary"></tbody>
                 </table>
+                <p id="promedio_temporadas" class="my-0">
+                </p>
             </div>
             <div class="col">
 
@@ -45,7 +47,7 @@
         </div>
     </div>
 
-    <script type="module" src="./main.js" defer></script>
+    <script type="module" src="./dist/main.js" defer></script>
 
 </body>
 

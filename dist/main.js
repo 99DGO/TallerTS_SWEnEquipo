@@ -8,7 +8,7 @@ series.forEach(serie => {
     const row = document.createElement("tr"); //creamos el row para poner dentro de la tabla
     row.innerHTML = `
     <td>${serie.getId()}</td>
-    <td>${serie.getName()}</td>
+    <td><a href=${serie.getLink()} > ${serie.getName()} </a> </td>
     <td>${serie.getChannel()}</td>
     <td>${serie.getSeasons()}</td>
   `; //.innerHTML permite editar los contenidos internos del tag de row <tr>
