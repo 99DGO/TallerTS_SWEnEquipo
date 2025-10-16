@@ -1,6 +1,6 @@
-import { Serie } from "./Serie.ts";  // import the class
+import { Serie } from "./Serie.js";  // importamos la clase de serie
 
-// Create a list (array) of series
+// Creamos un array de las series que vamos a exportar
 export const series: Serie[] = [
     new Serie (1,"Breaking Bad","AMC", 5,"Set and filmed in Albuquerque, New Mexico, the series tells the story of Walter White, a struggling and depressed high school chemistry teacher who is diagnosed with lung cancer" ,
     "https://www.amc.com/shows/breaking-bad","https://i.imgur.com/GGje0vc.jpg") ,

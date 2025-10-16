@@ -1,5 +1,5 @@
 export class Serie {
-    public constructor(public id: number, private name: string, private channel: string, 
+    public constructor(private id: number, private name: string, private channel: string, 
     private seasons: number, private description: string, private link: string,
     private image: string) 
     {
@@ -9,6 +9,7 @@ export class Serie {
         this.name=name;
         this.channel=channel;
         this.image=image;
+        this.id=id;
     }
 
     public getName(): string {
@@ -21,6 +22,10 @@ export class Serie {
 
     public getSeasons(): number {
         return this.seasons;
+    }
+    
+    public getId(): number {
+        return this.id;
     }
 
     public getImage(): string {
